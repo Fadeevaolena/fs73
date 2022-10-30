@@ -5,228 +5,221 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="./" class="logo"></a>
       <img src="./images/logo.svg" alt="logo" />
       <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services and prices</a></li>
-          <li><a href="#">Barber</a></li>
-          <li><a href="/contacts.html">Contacts</a></li>
+        <ul class="header-nav">
+          <li><a class="header-nav-link current" href="#about">About</a></li>
+          <li><a class="header-nav-link" href="#prices">Services and prices</a></li>
+          <li><a class="header-nav-link" href="#barbers">Barber</a></li>
+          <li><a class="header-nav-link" href="#contacts">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a class="header-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="header-button" type="button">Online-booking</button>
     </header>
     <main>
       <!-- Hero -->
-      <section>
-        <span>A hair salon for men in Kyiv</span>
-        <h1>BarberShop</h1>
-        <p>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item"><a class="hero-link link" href="#" target="_blank" rel="noopener noreferrer" >Instagram</a></li>
+          <li class="hero-item"><a class="hero-link link" href="#" target="_blank" rel="noopener noreferrer" >Youtube</a></li>
+        </ul>
+        <span class="hero-uptitel uptitel">A hair salon for men in Kyiv</span>
+        <h1 class="hero-titel">BarberShop</h1>
+        <p class="hero-subtitel subtitel">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
       </section>
       <!-- About -->
-      <section>
-        <ul>
-          <li>
+      <section class="about" #="about">
+        <ul class="about-list">
+          <li class="abou-items">
             <img src="./images/about.jpg" width="270" height="455" alt="About1"/>
           </li>
-          <li>
-            <img src="./images/about 2.jpg" width="270" height="455" alt="About2"/>
+          <li class="about-items">
+            <img src="./images/about2.jpg" width="270" height="455" alt="About2"/>
           </li>
         </ul>
         <!-- <div> -->
-          <span>About</span>
-          <h2>Best Barbershop in your city</h2>
-          <p>If you want to add more confidence to your image, you should definitely visit us.</p>
-          <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
+          <span class="about-uptitel uptitel">About</span>
+          <h2 class="about-titel titel">Best Barbershop in your city</h2>
+          <p class="about-subtitel subtitel">If you want to add more confidence to your image, you should definitely visit us.</p>
+          <p class="about-text">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
             of our master, you will never be the same again. We are a team that is always "on the same wave" with clients.
             Therefore, we are always ready to improve everyone who comes to us!</p>
-          <button type="button">Online-booking</button>
+          <button class="about-button" type="button">Online-booking</button>
         <!-- </div> -->
       </section>
       <!-- Services and prices -->
-      <section>
-        <span>Spend your time with the best masters</span>
-        <h2>Services and prices</h2>
-        <ul>
-          <li>
-            <p>Men’s haircut</p>
-            <span>from 300 uah.</span>
+      <section class="prices" id="prices">
+        <span class="prices-uptitel uptitel">Spend your time with the best masters</span>
+        <h2 class="prices-titel titel">Services and prices</h2>
+        <ul class="prices-list">
+          <li class="prices-item">
+            <p class="prices-item-text">Men’s haircut</p>
+            <span class="prices-item-text">from 300 uah.</span>
           </li>
-          <li>
-            <p>Beard trim</p>
-            <span>from 300 uah.</span>
+          <li class="prices-item">
+            <p class="prices-item-text">Beard trim</p>
+            <span class="prices-item-text">from 300 uah.</span>
           </li>
-          <li>
-            <p>Mustache trim</p>
-            <span>from 200 uah.</span>
+          <li class="prices-item">
+            <p class="prices-item-text">Mustache trim</p>
+            <span class="prices-item-text">from 200 uah.</span>
           </li>
-          <li>
-            <p>Straight razor shave</p>
-            <span>from 200 uah.</span>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <p>Trainee’s haircut</p>
-            <span>from 50 uah.</span>
-          </li>
-          <li>
-            <p>Haircut under the nozzle</p>
-            <span>from 200 uah.</span>
-          </li>
-          <li>
-            <p>Children’s haircut (0-12 y.o.)</p>
-            <span>from 300 uah.</span>
-          </li>
-          <li>
-            <p>Camouflage of gray hair</p>
-            <span>from 200 uah.</span>
+          <li class="prices-item">
+            <p class="prices-item-text">Straight razor shave</p>
+            <span class="prices-item-text">from 200 uah.</span>
           </li>
         </ul>
-        <button type="button">online-booking</button>
+        <ul class="prices-list">
+          <li class="prices-item">
+            <p class="prices-item-text">Trainee’s haircut</p>
+            <span class="prices-item-text">from 50 uah.</span>
+          </li>
+          <li class="prices-item">
+            <p class="prices-item-text">Haircut under the nozzle</p>
+            <span class="prices-item-text">from 200 uah.</span>
+          </li>
+          <li class="prices-item">
+            <p class="prices-item-text">Children’s haircut (0-12 y.o.)</p>
+            <span class="prices-item-text">from 300 uah.</span>
+          </li>
+          <li class="prices-item">
+            <p class="prices-item-text">Camouflage of gray hair</p>
+            <span class="prices-item-text">from 200 uah.</span>
+          </li>
+        </ul>
+        <button class="prices-button" type="button">online-booking</button>
       </section>
       <!-- Why people come to us? -->
-      <section>
-        <ul>
-          <li>
-            <span>600</span><sup>+</sup>
-            <p>Satisfied customers per day</p>
+      <section class="benefits">
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <span class="benefits-count">600</span><sup class="benetits-plus">+</sup>
+            <p class="benefits-text">Satisfied customers per day</p>
           </li>
-          <li>
-            <span>50</span><sup>+</sup>
-            <p>Awards for excellent service</p>
+          <li class="benefits-item">
+            <span class="benefits-count">50</span><sup class="benetits-plus">+</sup>
+            <p class="benefits-text">Awards for excellent service</p>
           </li>
-          <li>
-            <span>20</span><sup>+</sup>
-            <p>Kyiv's best barbers</p>
+          <li class="benefits-item">
+            <span class="benefits-count">20</span><sup class="benetits-plus">+</sup>
+            <p class="benefits-text">Kyiv's best barbers</p>
           </li>
-          <li>
-            <span>100</span><sup>+</sup>
-            <p>Gifts for regular customers</p>
+          <li class="benefits-item">
+            <span class="benefits-count">100</span><sup class="benetits-plus">+</sup>
+            <p class="benefits-text">Gifts for regular customers</p>
           </li>
         </ul>
         <div>
-          <span>Old traditional school</span>
-          <h2>¿Why people come to us?</h2>
-          <p>
+          <span class="benefits-uptitel uptitel">Old traditional school</span>
+          <h2 class="benefits-titel titel">¿Why people come to us?</h2>
+          <p class="benefits-subtitel subtitel">
             Only good things are said about us. But it's better to see and feel
             1 time than read 10 times.
           </p>
         </div>
       </section>
       <!-- Our barbers -->
-      <section>
-        <span>For true enjoyers of the atmosphere</span>
-        <h2>Our barbers</h2>
-        <ul>
-          <li>
+      <section class="barbers" id="barbers">
+        <span class="barbers-uptitel uptitel">For true enjoyers of the atmosphere</span>
+        <h2 class="barbers-titel titel">Our barbers</h2>
+        <ul class="barbers-list">
+          <li class="barbers-item">
             <img
               src="./images/john_smith.jpg"
               width="370"
               height="346"
               alt="John Smith"
             />
-            <h3>John Smith</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+            <h3 class="barbers-item-titel">John Smith</h3>
+            <p class="barbers-item-text">Extreme Barber</p>
+            <ul class="barbers-soc-list">
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
             </ul>
           </li>
-          <li>
+          <li class="barbers-item">
             <img
               src="./images/michele_doe.jpg"
               width="370"
               height="346"
               alt="Michele Doe"
             />
-            <h3>Michele Doe</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+            <h3 class="barbers-item-titel">Michele Doe</h3>
+            <p class="barbers-item-text">Extreme Barber</p>
+            <ul class="barbers-soc-list">
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
             </ul>
           </li>
-          <li>
+          <li class="barbers-item">
             <img
               src="./images/alan_black.jpg"
               width="370"
               height="346"
               alt="Alan Black"
             />
-            <h3>Alan Black</h3>
-            <p>Extreme Barber</p>
-            <ul>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
-              <li><a href="#"></a></li>
+            <h3 class="barbers-item-titel">Alan Black</h3>
+            <p class="barbers-item-text">Extreme Barber</p>
+            <ul class="barbers-soc-list">
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
+              <li class="barbers-soc-item"><a class="barbers-soc-link" href="#"></a></li>
             </ul>
           </li>
         </ul>
       </section>
       <!-- Photo -->
-      <section>
-        <span>In Latin, "barba" means "beard"</span>
-        <h2>Portfolio</h2>
-        <ul>
-          <li><img src="./images/photo1.jpg" width="270" height="360" alt="photo1"></li>
-          <li><img src="./images/photo2.jpg" width="270" height="360" alt="photo2"></li>
-          <li><img src="./images/photo3.jpg" width="270" height="360" alt="photo3"></li>
-          <li><img src="./images/photo4.jpg" width="270" height="360" alt="photo4"></li>
+      <section class="galery">
+        <span class="galery-uptitel uptitel">In Latin, "barba" means "beard"</span>
+        <h2 class="hide">Portfolio</h2>
+        <ul class="galery-list">
+          <li class="galery-item"><img src="./images/photo1.jpg" width="270" height="360" alt="photo1"></li>
+          <li class="galery-item"><img src="./images/photo2.jpg" width="270" height="360" alt="photo2"></li>
+          <li class="galery-item"><img src="./images/photo3.jpg" width="270" height="360" alt="photo3"></li>
+          <li class="galery-item"><img src="./images/photo4.jpg" width="270" height="360" alt="photo4"></li>
         </ul>
       </section>
-      <section>
+      <!-- Contacts -->
+      <section class="contacts">
         <div>
-        <h2>Contacts</h2>
-        <address>
-          <ul>
-            <li>
-              <a href="http://" target="_blank" rel="noopener noreferrer">st. Vasilkovaya, 7A
+        <h2 class="contacts-titel titel">Contacts</h2>
+        <address class="contacts-address">
+          <ul class=" contacts-list">
+            <li class="contacts-item">
+              <a class="contacts-link contacts-link-bold link" href="http://" target="_blank" rel="noopener noreferrer">st. Vasilkovaya, 7A
               Kiev, 08132</a>
             </li>
-            <li>
-              <a href="tel:+380441111111">+38 044 111 11 11</a>
+            <li class="contacts-item">
+              <a class="contacts-link  link" href="tel:+380441111111">+38 044 111 11 11</a>
             </li>
-            <li>
-              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
+            <li class="contacts-item">
+              <a class="contacts-link link" href="mailto:barbershop@email.com">barbershop@email.com</a>
             </li>
           </ul>
         </address>
-        <span>Working hours</span>
-        <p>Every day from 9:00 to 22:00</p>
+        <span class="contacts-schedule-titel">Working hours</span>
+        <p class="contacts-schedule-text">Every day from 9:00 to 22:00</p>
         </div>
       </section>
-      <!-- Contacts -->
-      <section>
-        <address>
-          <ul>
-            <li>
-            <a href="https://goo.gl/maps/oKYZWMwzyQTYq2JNA" target="_blank" rel="noopener noreferrer"></a>
-            </li>
-            <li>
-              <a href="tel:+380441111111">+38 044 111 11 11</a>
-            </li>
-            <li>
-              <a href="mailto:barbershop@email.com">barbershop@email.com</a>
-            </li>
-          </ul>
-        </address>
-        <span>Working hours</span>
-        <p>Every day from 9:00 to 22:00</p>
-      </section>
+      
       
     </main>
     <footer>
@@ -237,7 +230,7 @@
             >Instagram</a
           >
         </li>
-        <li>
+        <li style="background-color: teal; color: white;">
           <a href="http://" target="_blank" rel="noopener noreferrer"
             >Youtube</a>
         </li>
